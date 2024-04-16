@@ -1,0 +1,33 @@
+body{
+     margin: 0;
+     padding: 0;
+     color: white;
+     background-color: skyblue;
+ }
+ span{
+     color: red;
+ }
+ .wrapper{
+     top: 45%;
+     left: 50%;
+     background: black;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px ;
+ }
+ input{
+     border: none;
+     padding: 5px;
+     outline: none;
+ }
+ button{
+     color: white;
+     padding: 10px;
+     border: 2px solid white;
+     background: black;
+     display: block;
+     margin-top: 10%;
+     cursor: pointer;
+ }
